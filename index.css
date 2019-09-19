@@ -30,3 +30,8 @@ li a:hover:not(.active) {
 .active {
 	background-color: #fd0008;
 }
+img{
+	width:100%;
+	max-width: width;
+	height: auto;
+}
