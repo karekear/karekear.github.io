@@ -59,6 +59,8 @@ li a:hover:not(.active) {
 
 table{
 	border-collapse: collapse;
+	width: 100%;
+	max-width: width;
 }
 td{
 	border:solid 1px;
