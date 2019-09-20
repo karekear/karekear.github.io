@@ -1,10 +1,12 @@
-h1 {
+.keah1 {
 	background-color: #1b1b1b;
 	color: #FFFFFF;
 }
 
 h2{
 	position: relative;
+	padding-bottom: .5em;
+	border-bottom: 1px solid #cccccc;
 }
 
 
