@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!--
+<script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+$(function(){
+$("#loadtest").load("loadtest.html");
+});
+</script>
+-->
+<!-- <script src="sample.js"></script> -->
+
 <meta charset="utf-8">
-<title>けあ</title>
+<title>けあ研</title>
 <link rel = "stylesheet" href="index.css" type="text/css">
 </head>
 
 <body>
 
-<h1 class="keah1">けあ(タイトル未定)</h1>
-
+<!-- <div id="loadtest"></div> -->
+<!-- ここにheader.htmlが読み込まれる -->
+<!-- --- header --- -->
+<div id = "header">
+<h1 class = "keah1">けあ研</h1>
 <img src="shojo190916_wide.png">
-
 <ul class="menu">
         <li class="menubutton"><a class="active" href="index.html">トップ</a></li>
         <li class="menubutton"><a href="about.html">概要</a></li>
@@ -21,7 +33,9 @@
         <li class="menubutton"><a href="preparation.html">雑記</a></li>
         <li class="menubutton"><a href="preparation.html">アクセス</a></li>
 </ul>
-<!-- #include virtual="header.html" -->
+</div>
+<!-- --- header --- -->
+
 
 <h2>更新情報</h2>
 <div class = "updates">
@@ -34,7 +48,6 @@
 <iframe src="hitokoto.html" name="hitokoto" width="1000" height="100" scrolling="yes">
 </iframe>
 </div>
-
 
 <h2>概要</h2>
 <p>けあです</p>
