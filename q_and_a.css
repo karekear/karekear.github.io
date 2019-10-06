@@ -1,6 +1,46 @@
+/* kea_h1(けあ研) */
+.keah1 {
+	background-color: #1b1b1b;
+	color: #FFFFFF;
+}
+/* heading(見出し) */
 h2{
     padding: 0.25em 0.5em;/*上下 左右の余白*/
     color: #494949;/*文字色*/
     background: transparent;/*背景透明に*/
     border-left: solid 5px #7db4e6;/*左線*/
+}
+/* header pic */
+header_pic{
+	width:100%;
+	max-width: width;
+	height: auto;
+}
+/* menu */
+.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #1b2538;
+}
+.menubutton {
+	float: left;
+	border-right: 1px solid #bbbbbb;
+}
+.menubutton:last-child {
+	border-right: none;
+}
+.menubutton a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.menubutton a:hover:not(.active) {
+	background-color: #e9ecf1;
+}
+.active {
+	background-color: #fd0008;
 }
