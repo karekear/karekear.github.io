@@ -1,7 +1,5 @@
 header = 
 '<div id = "header">'+
-'<h1 class = "keah1">けあ研</h1>'+
-'<img src="shojo190916_wide.png" id="header_pic">'+
 '<ul class="menu">'+
 '<li class="menubutton"><a class="active" href="index.html">トップ</a></li>'+
 '<li class="menubutton"><a href="about.html" target="_top">概要</a></li>'+
