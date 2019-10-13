@@ -1,4 +1,7 @@
 header = 
+'<div class = "header_pic">'+
+'<img src="shojo190916_wide.png">'+
+'</div>'+
 '<div id = "header">'+
 '<ul class="menu">'+
 '<li class="menubutton"><a class="active" href="index.html">トップ</a></li>'+
