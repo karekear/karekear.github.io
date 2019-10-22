@@ -2,7 +2,11 @@
 /*	background-color: #1b1b1b;*/
 	color: black;
 /*	text-align: center;*/
+	font-family: Century,serif;
 	font-size: 4vw;
+	position: relative;
+	padding-bottom: .5em;
+	border-bottom: 1px solid #cccccc;
 }
 
 h2{
@@ -91,6 +95,7 @@ td{
 	/*padding-top: 10.00%;*/
 }
 
+/*
 #link {
 	list-style-type: none;
 	margin: 0;
@@ -101,3 +106,4 @@ td{
 #linkbutton a {
 	color: white;
 }
+*/
