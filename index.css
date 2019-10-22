@@ -95,6 +95,14 @@ td{
 	/*padding-top: 10.00%;*/
 }
 
+/*???　画像*/
+#what img{
+	width: 100%;
+	max-width: width;
+	height: auto;
+	/*padding-top: 10.00%;*/
+}
+
 /*
 #link {
 	list-style-type: none;
