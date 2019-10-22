@@ -1,12 +1,21 @@
 .keah1 {
-	background-color: #1b1b1b;
-	color: #FFFFFF;
+/*	background-color: #1b1b1b;*/
+	color: black;
+/*	text-align: center;*/
+	font-size: 4vw;
 }
 
 h2{
 	position: relative;
 	padding-bottom: .5em;
 	border-bottom: 1px solid #cccccc;
+}
+
+#header_pic img{
+	width: 100%;
+	max-width: width;
+	height: auto;
+	/*padding-top: 10.00%;*/
 }
 
 .menu {
@@ -50,11 +59,12 @@ h2{
 	height: 100%;
 }
 
+/*
 .hitokoto {
 	position: relative;
 	width: 100%;
-	/*padding-top: 10.00%;*/
-}
+	/*padding-top: 10.00%;
+}*/
 .hitokoto iframe {
 	position: relative;
 	top: 0;
@@ -73,8 +83,21 @@ td{
 	padding:0.5em;
 }
 
-.header_pic img{
-	width:100%;
+/*少女　画像*/
+#shojo img{
+	width: 100%;
 	max-width: width;
 	height: auto;
+	/*padding-top: 10.00%;*/
+}
+
+#link {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #1b2538;
+}
+#linkbutton a {
+	color: white;
 }
