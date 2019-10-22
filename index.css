@@ -87,17 +87,27 @@ td{
 	padding:0.5em;
 }
 
+
+#shojo {
+	margin: 1vw auto;
+	text-align: center;
+}
 /*少女　画像*/
 #shojo img{
-	width: 100%;
+	width: 80%;
 	max-width: width;
 	height: auto;
+	
 	/*padding-top: 10.00%;*/
 }
 
+#what {
+	margin: 1vw auto;
+	text-align: center;
+}
 /*???　画像*/
 #what img{
-	width: 100%;
+	width: 80%;
 	max-width: width;
 	height: auto;
 	/*padding-top: 10.00%;*/
