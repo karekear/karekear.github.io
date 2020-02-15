@@ -1,4 +1,4 @@
-#!/usr/kicak/bin/python3
+#!/usr/local/bin/python3
 # 上はPythonのインストールパスの指定
 # プログラムの先頭行で"#!"に続けて指定する必要がある
 
